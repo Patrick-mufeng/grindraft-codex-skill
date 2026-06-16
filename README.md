@@ -110,15 +110,16 @@
 ### 2. 初始化 — grindraft-init
 
 **触发**：`磨稿初始化`
-
-**用途**：第一次使用时的项目脚手架搭建。
-
-**工作流程**：
-1. 创建 `.grindraft-state.json`（全局状态文件）
-2. 创建 `rubric_notes.md`（评分标准笔记）
-3. 创建 `style_guide.md`（风格指南，随使用自动沉淀）
-4. 创建 `WORKFLOW.md`、`STATUS.md`
-5. 创建 `candidates.md`（选题池）、`articles/`（文章目录）
+**用途**：第一次使用时的项目脚手架搭建。开头通过 4 个问题了解你的背景，再创建项目骨架。
+**工作流程**（Phase 0-7）：
+1. **Phase 0** 检测是否已初始化 — 已存在则询问重配还是继续
+2. **Phase 1** 收集用户参数 — 粉丝数、写作状态、发布频率、AI 参与度
+3. **Phase 2** 创建目录和骨架文件 — 绝不覆盖已有文件
+4. **Phase 3** 配置 rubric — 可选导入历史文章做 benchmark
+5. **Phase 4** 判定 mode — cold-start / calibration
+6. **Phase 5** 写入 .grindraft-state.json
+7. **Phase 6** 输出入口引导
+8. **Phase 7** 自检 — 逐项重读验证全部写入
 
 **两种模式**：
 
@@ -644,3 +645,4 @@ import { today, readState, listArticles, computeComposite } from "./lib/index.mj
 ## 许可证
 
 MIT
+
