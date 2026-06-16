@@ -1,0 +1,39 @@
+﻿{
+  "name": "grindraft-codex-skill",
+  "owner": {
+    "name": "Grindraft",
+    "email": ""
+  },
+  "metadata": {
+    "description": "纾ㄧ鈥斺€旀妸鍏紬鍙烽暱鏂囧啓浣滃彉鎴愬彲鏍″噯棰勬祴寰幆銆?6 涓嫭绔?skill锛屼粠鎵剧儹鐐瑰埌澶嶇洏鍏ㄦ祦绋嬮棴鐜€?,
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "grindraft",
+      "description": "鍏紬鍙烽暱鏂囧啓浣滄牎鍑嗛棴鐜細鎶撶儹鐐?鈫?鑱婇€夐 鈫?AI 鍐欏垵绋?鈫?鍘?AI 鍛?鈫?璁捐灏侀潰 鈫?鎺掔増 HTML 鈫?鐩查娴?鈫?鍙戝竷鐧昏 鈫?鏁版嵁澶嶇洏 鈫?杩涘寲 rubric",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/grindraft",
+        "./skills/grindraft-init",
+        "./skills/grindraft-trends",
+        "./skills/grindraft-seed",
+        "./skills/grindraft-write",
+        "./skills/grindraft-humanize",
+        "./skills/grindraft-cover",
+        "./skills/grindraft-format",
+        "./skills/grindraft-predict",
+        "./skills/grindraft-publish",
+        "./skills/grindraft-retro",
+        "./skills/grindraft-persona",
+        "./skills/grindraft-bump",
+        "./skills/grindraft-recommend",
+        "./skills/grindraft-status",
+        "./skills/grindraft-score-blind",
+        "./skills/grindraft-polish",
+        "./skills/grindraft-illustrate"
+      ]
+    }
+  ]
+}
